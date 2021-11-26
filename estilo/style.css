@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2? family = Scheherazade + Novo: wght @ 700 & display = swap');
+:root {
+ --cor01: #FAEFD7;
+ --cor02: #DED0BF;
+ --cor03: #F5E8DF;
+ --cor04: #DEC7BF;
+ --cor05: #FADCD7;
+
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--cor01);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+h1{
+  font-family: 'Scheherazade New', serif;
+  text-align: center;
+}
+h2{
+  text-align: left;
+}
+header {
+  padding-top: 10px;
+  background-color: var(--cor05);
+  padding-bottom: 5px;
+ 
+}
+header p {
+  font-family: 'Scheherazade New', serif;
+  text-align: center;
+}
+nav{
+  background-color: var(--cor05);
+  color: white;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+}
+nav > a {
+  color: #7a7979;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.5s; /*Esse é o delay que tem depois que a lista é selecionada, para sumir o hover de background color 03 */
+}
+nav >a:hover {
+  background-color: var(--cor01);
+  color: black;
+}
+
+#conteudo01{
+  text-align: justify;
+}
+div{
+  float: left;
+}
+div p {
+  margin: 10px;
+  background-color: var(--cor01);
+  padding-left: 130px;
+}
+img {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+main{
+  padding-top: 10px;
+  margin: auto;
+  min-width: 350px;
+  max-width: 1200px;
+  background-color: white;
+  padding: 55px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+  
+}
+main h1 {
+  background-image: linear-gradient(to right, var(--cor01), transparent);
+  text-align: left;
+}
+footer{
+  padding: 15px;
+  margin-top: 200px;
+  text-align: center;
+  background-color: var(--cor05);
+
+}
+footer p {
+  padding: 0px;
+  margin: 0px;
+}
